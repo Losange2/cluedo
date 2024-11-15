@@ -2,7 +2,7 @@
 $bdd_fichier = 'cluedo.db';
 $sqlite = new SQLite3($bdd_fichier);
 
-// Requête SQL pour récupérer les noms des personnages
+// Fonctions pour récupérer des données
 $sql = 'SELECT nom_personnage FROM personnages';
 $result = $sqlite->query($sql);
 
@@ -14,12 +14,6 @@ echo "<title>Choix du personnage</title>";
 echo "<link rel=\"stylesheet\" href=\"debut.css\">"; // Fichier CSS externe
 echo "</head>";
 echo "<body>";
-
-// Vérification et récupération de la sélection si le formulaire est soumis
-if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['choix'])) {
-    $choix_personnage = $_POST['choix'];
-    echo "<p>Personnage sélectionné : " . htmlspecialchars($choix_personnage) . "</p>";
-}
 
 echo "<h1>Choix du personnage</h1>";
 
