@@ -40,6 +40,20 @@ while ($adj = $result->fetchArray(SQLITE3_ASSOC)) {
     echo "</form>";
 }
 
+// Vérifie si le formulaire a été soumis
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['id_piece'])) {
+    // Récupère l'ID de la pièce envoyé par le bouton
+    $piece = $_POST['id_piece'];
+
+    // Affiche l'ID ou effectue une action
+    echo "ID de la pièce sélectionnée : " . htmlspecialchars($id_piece);
+} else {
+    // Si aucune donnée n'a été envoyée
+    echo "Aucune pièce sélectionnée.";
+}
+
+
+
 
 
 echo "</body>";
