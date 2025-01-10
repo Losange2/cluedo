@@ -1,0 +1,52 @@
+h1{
+    font-size: 75px;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1% auto
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style du bouton */
+button {
+    padding: 3px 9px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left : 46%;
+}
+
+/* Changement de couleur au survol */
+button:hover {  
+    background-color: #d4d4d4D4;
+}   
+
+p {
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    text-align: center; /* Centre le texte dans le paragraphe */
+    height: auto; /* La hauteur sera adaptée au contenu */
+    margin: 0 auto; /* Centre horizontalement si nécessaire */
+}
+
+
+
+img{
+    width: 300px; /* Largeur de l'image */
+    height: auto; /* Hauteur automatique pour conserver les proportions */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Ombre autour de l'image */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition pour le zoom et l'ombre */
+    display: block;
+    margin: 0 auto; /* Centre l'image horizontalement */
+}

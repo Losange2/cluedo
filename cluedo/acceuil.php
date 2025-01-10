@@ -16,6 +16,9 @@
         <p>À chaque tour, le joueur formule des hypothèses et reçoit
         des indices pour affiner ses suppositions. Le joueur remporte la partie s’il devine correctement
         la combinaison (personnage, arme, pièce).</p>
+        <form action="manuel.php" method="get">
+        <button>Manuel</button>
+</form>
         <form action="debut.php" method="get">
         <button>Nouvelle partie</button>
 </form>
