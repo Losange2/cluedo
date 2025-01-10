@@ -149,7 +149,6 @@ echo "</head>";
 echo "<body>";
 
 echo "<h1 id=\"piece-titre\">" . htmlspecialchars($piece) . "</h1>";
-echo "<p> Personnage : $personnage, Arme : $arme2, Pièce : $piecem";
 echo "<img id=\"piece-image\" src=\"cluedo image/$piece.jpg\" alt=\"Image de la pièce\">";
 
 echo "<div id=\"boutons-pieces\">";

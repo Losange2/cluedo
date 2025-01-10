@@ -8,6 +8,7 @@
 </head>
 <body>
         <h1>Fin</h1>
+        <p>Bravo vous avez gagnez, voulez vous recommancez ? </p>
         <form action="debut.php" method="get">
         <button>Recommancez</button>
 </form>
