@@ -14,6 +14,7 @@ echo "<title>Choix du personnage</title>";
 echo "<link rel=\"stylesheet\" href=\"debut.css\">"; // Fichier CSS externe
 echo "</head>";
 echo "<body>";
+echo "<img id=\"piece-image\" src=\"cluedo image/logo.png\" alt=\"Image de la pièce\">";
 
 echo "<h1>Choix du personnage</h1>";
 
@@ -25,7 +26,6 @@ echo "<select name=\"choix\" id=\"choix\">";
 while ($row = $result->fetchArray(SQLITE3_ASSOC)) {
     echo "<option value=\"" . htmlspecialchars($row['nom_personnage']) . "\">" . htmlspecialchars($row['nom_personnage']) . "</option>";
 }
-
 echo "</select>";
 echo "<button type=\"submit\">Commencez la partie</button>";
 echo "</form>";

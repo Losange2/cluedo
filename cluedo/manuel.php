@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="manuel.css"> <!-- Fichier CSS externe -->
 </head>
 <body>
+        <img id="piece-image" src="cluedo image/logo.png" alt="Image de la pièce">
         <h1>Pièce</h1>
         <img id="piece-image" src="cluedo image/hall.jpg" alt="Image de la pièce">
         <p>Les pièces sont représentées sur cette carte avec un point rouge indiquant où se trouve le joueur. En l'occurrence, il se trouve actuellement dans le hall</p>

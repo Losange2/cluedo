@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="acceuil.css"> <!-- Fichier CSS externe -->
 </head>
 <body>
-        <h1>Cluedo</h1>
+<img id="piece-image" src="cluedo image/logo.png" alt="Image de la pièce">
         <p>Le Cluedo est un jeu de déduction dans lequel les joueurs doivent découvrir qui a commis un
         meurtre, avec quelle arme, et dans quelle pièce du manoir. Le but est de parcourir les
         différentes pièces, émettre des hypothèses sur l'identité du meurtrier, l'arme utilisée, et
@@ -19,6 +19,7 @@
         <form action="manuel.php" method="get">
         <button>Manuel</button>
 </form>
+<br> </br>
         <form action="debut.php" method="get">
         <button>Nouvelle partie</button>
 </form>

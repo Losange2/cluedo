@@ -142,12 +142,12 @@ echo "<html lang=\"fr\">";
 echo "<head>";
 echo "<meta charset=\"UTF-8\">";
 echo "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">";
-echo "<title>Cluedo - $piece</title>";
+echo "<title> $piece</title>";
 echo "<link rel=\"stylesheet\" href=\"salles.css\">";
 echo "<script src=\"https://code.jquery.com/jquery-3.6.0.min.js\"></script>";
 echo "</head>";
 echo "<body>";
-
+echo "<img id=\"piece-image\" src=\"cluedo image/logo.png\" alt=\"Image de la pièce\">";
 echo "<h1 id=\"piece-titre\">" . htmlspecialchars($piece) . "</h1>";
 echo "<img id=\"piece-image\" src=\"cluedo image/$piece.jpg\" alt=\"Image de la pièce\">";
 

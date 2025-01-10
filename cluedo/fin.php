@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="acceuil.css"> <!-- Fichier CSS externe -->
 </head>
 <body>
+        <img id="piece-image" src="cluedo image/logo.png" alt="Image de la pièce">
         <h1>Fin</h1>
-        <p>Bravo vous avez gagnez, voulez vous recommancez ? </p>
+        <p>Bravo, vous avez gagné ! Voulez-vous recommencer ? </p>
         <form action="debut.php" method="get">
         <button>Recommancez</button>
 </form>

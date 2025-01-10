@@ -1,6 +1,17 @@
+body {
+    background-color: black; /* Couleur de fond noire */
+    color: white; /* Texte en blanc */
+    font-family: Arial, sans-serif; /* Une police lisible */
+    margin: 0; /* Supprime les marges */
+    padding: 0; /* Supprime les espacements */
+}
+
+
+a:hover {
+    text-decoration: underline; /* Ajoute un soulignement au survol */
+}
 h1{
     font-size: 75px;
-    color: #000;
     display: flex;
     align-items: center;
     justify-content: center;

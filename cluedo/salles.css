@@ -1,6 +1,18 @@
+body {
+    background-color: black; /* Couleur de fond noire */
+    color: white; /* Texte en blanc */
+    font-family: Arial, sans-serif; /* Une police lisible */
+    margin: 0; /* Supprime les marges */
+    padding: 0; /* Supprime les espacements */
+}
+
+
+a:hover {
+    text-decoration: underline; /* Ajoute un soulignement au survol */
+}
+
 h1{
     font-size: 75px;
-    color: #000;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -8,7 +20,7 @@ h1{
 }
 
 img{
-    width: 600px; /* Largeur de l'image */
+    width: 500px; /* Largeur de l'image */
     height: auto; /* Hauteur automatique pour conserver les proportions */
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Ombre autour de l'image */
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition pour le zoom et l'ombre */
